@@ -1,0 +1,32 @@
+.card {
+  position: relative;
+  width: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.likes {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 10px;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  transition: color 1s ease-in-out, transform 1s ease-in-out;
+}
+
+.image:hover {
+  transform: scale(1.1);
+}

@@ -1,0 +1,35 @@
+.wrap {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.masonryGrid {
+  display: flex;
+}
+
+.masonryColumn {
+  padding: 0 5px;
+}
+
+.masonryItem {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .wrap {
+    width: 768px;
+    padding: 16px;
+  }
+}
+
+@media screen and (min-width: 1168px) {
+  .wrap {
+    width: 1168px;
+  }
+}

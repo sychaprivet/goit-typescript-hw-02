@@ -1,0 +1,22 @@
+.btn {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 24px;
+  cursor: pointer;
+  background-color: rgb(71, 71, 255);
+  padding: 10px 20px;
+  border: none;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+  color: rgb(239, 243, 247);
+  transition: background-color 1s ease-in-out, transform 1s ease-in-out;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  background-color: rgb(42, 42, 183);
+}
